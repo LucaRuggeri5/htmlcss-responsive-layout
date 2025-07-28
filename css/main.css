@@ -96,9 +96,11 @@ h1 {
     background-color: red;
     border-style: dashed; */
 }
+
 h4 {
     font-size: 25px;
 }
+
 .prep {
     padding: 10px 0px;
     list-style: none;
@@ -122,6 +124,7 @@ h4 {
     background-color: red;
     border-style: dashed; */
 }
+
 button {
     border-radius: 40px;
     font-size: 20px;
@@ -133,25 +136,35 @@ button {
 
 
 /* SEZIONE BANNER E PRESENTAZIONE */
-.banner {
-    /* DEBUG */
-    /* height: 100px;
-    background-color: red;
-    border-style: dashed; */
+.banner{
+    display: flex;
 }
 
-.presentation {
-    /* DEBUG */
-    height: 100px;
-    background-color: red;
-    border-style: dashed;
+h3 {
+    font-size: 30px;
+    margin-top: 20px
 }
 
-.float {
-    /* DEBUG */
-    height: 100px;
-    background-color: red;
-    border-style: dashed;
+hr {
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#img-float {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 400px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 /*************************************************
