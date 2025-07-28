@@ -1,3 +1,7 @@
+/*************************************************
+    REGOLE GENERALI
+ *************************************************/
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +13,19 @@ body {
     font-size: 12px;
 }
 
-/* HEADER */
+main {
+    background-color: #F6F5F3;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1350px;
+}
+
+/*************************************************
+    HEADER
+ *************************************************/
 header {
     width: 100%;
 }
@@ -22,10 +38,87 @@ h1 {
     color: #FF9614;
 }
 
-/* BODY */
+/*************************************************
+    BODY
+ *************************************************/
+.sottotitolo {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
 
+.titolo {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
 
-/* FOOTER */
+.container-video {
+    display: flex;
+    /* DEBUG */
+    /* height: 100px;
+    background-color: red;
+    border-style: dashed; */
+}
+
+.video {
+    width: 70%;
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.video-text {
+    width: 30%;
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.container-social {
+    display: flex;
+    /* DEBUG */
+    /* height: 100px;
+    background-color: red;
+    border-style: dashed; */
+}
+
+.social {
+    width: calc(100% / 5);
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.banner {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.presentation {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+.float {
+    /* DEBUG */
+    height: 100px;
+    background-color: red;
+    border-style: dashed;
+}
+
+/*************************************************
+    FOOTER
+ *************************************************/
 footer {
     display: flex;
     justify-content: space-between;
@@ -36,7 +129,7 @@ footer {
     background-color: #7C69A4;
 }
 
-ul {
+.policy {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -45,3 +138,22 @@ ul {
 li {
     padding-left: 10px;
 }
+
+a {
+    color: white;
+}
+
+
+
+
+/*************************************************
+    RESPONSIVE TABLET
+ *************************************************/
+
+
+
+
+
+ /*************************************************
+    RESPONSIVE MOBILE
+ *************************************************/
