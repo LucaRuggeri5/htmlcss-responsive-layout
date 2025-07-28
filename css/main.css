@@ -8,3 +8,40 @@ body {
     font-family: 'Montserrat', 'Helvetica Neue', sans-serif;
     font-size: 12px;
 }
+
+/* HEADER */
+header {
+    width: 100%;
+}
+h1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 100px;
+    padding-left: 20px;
+    color: #FF9614;
+}
+
+/* BODY */
+
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    color: white;
+    padding: 20px 20px;
+    background-color: #7C69A4;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    padding-left: 10px;
+}
